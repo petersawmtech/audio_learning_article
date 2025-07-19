@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+/video_transcriber/InputVideos/*
+/video_transcriber/OutputMarkdown/*
+/video_transcriber/LearningArticles/*
+
+# Keep directory structure but ignore all content except .gitkeep
+!video_transcriber/InputVideos/.gitkeep
+!video_transcriber/OutputMarkdown/.gitkeep
+!video_transcriber/LearningArticles/.gitkeep
+
+.env
+
+# Test scripts (may contain temporary API keys during development)
+video_transcriber/test_*.py
